@@ -1,12 +1,52 @@
 
-/* 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius:8%;
+    width: 10%;
+    height: 50%;
+    
+}
+
+
+.red-ligh{
+    width:60px;
+    height:60px; 
+    background:red; 
+    border-radius: 30px;
+    margin: 5px;
+
+}
+
+.yellow-ligh{
+    width:60px;
+    height:60px; 
+    background:yellow; 
+    border-radius:30px;
+    margin: 5px;
+}
+
+.green-ligh{
+    width:60px;
+    height:60px; 
+    background:green; 
+    border-radius:30px;
+    margin: 5px;
+}
+
+.brillo {
+     /* box-shadow: 0 0 60px 30px #fff, 0 0 100px 60px #b400ff, 0 0 140px 90px #ff00d4;  */
+     box-shadow: 0 0 15px #d45385, inset 0 0 15px #f1f1f1;
+}
+
